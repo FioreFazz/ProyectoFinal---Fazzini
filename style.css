@@ -1,0 +1,100 @@
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+    display: flex;
+    grid-template-columns: 2;
+    width: 100%;
+    margin: 0;
+}
+.titulo-principal{
+  text-align: center;
+  
+}
+  .contenedor-habitaciones{
+    display: grid;
+  }
+  .habitacion{
+    display: flex;
+  }
+  .habitacion-imagen{
+    max-width: 100%;
+    height: 190px;
+  }
+  .habitacion-detalles{
+    color: rgb(157, 102, 30);
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+  }
+  .contenedor-carrito{
+    display: grid;
+    width: auto;
+  }
+
+
+  /* Carrito */
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  border: solid 2px rgb(157, 102, 30);
+  border-radius: 15px;
+
+}
+.reserva-vacio{
+  border-radius:5px;
+  background-color: rgb(254, 193, 193);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.reserva-comprado{
+  border-radius:5px;
+  background-color: rgb(211, 254, 193);
+  padding: 10px;
+  text-align: center;
+
+}
+.reserva-habitaciones{
+  padding: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.reserva-acciones{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(227, 227, 227);
+  align-items: center;
+  border-radius: 15px;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 21px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.reserva-acciones-botones{
+  margin-right: 20px;
+}
+.reserva-habitacion-eliminar{
+  display: flex;
+  justify-content: flex-end;
+}
+.disabled {
+  display: none;
+}
+.total-compra-reserva{
+  width: 188px;
+  height: 100px;
+  border: solid black;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 1000;
+}

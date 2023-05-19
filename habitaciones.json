@@ -1,0 +1,50 @@
+[
+    {
+        "id": "Habitacion101",
+        "tipo": "Doble",
+        "imagen": "./img/hab/101.jpg",
+        "nombre": "Miró",
+        "descripcion": "Habitación con Baño Privado. TV Cable. Frigobar",
+        "precio": 1500
+    },
+    {
+        "id": "Habitacion102",
+        "tipo": "Doble",
+        "imagen": "./img/hab/102.jpg",
+        "nombre": "Kandinsky",
+        "descripcion": "Habitación con Baño Privado y TV Cable",
+        "precio": 1500
+    },
+    {
+        "id": "Habitacion103",
+        "tipo": "Doble",
+        "imagen": "./img/hab/103.jpg",
+        "nombre": "Warhol",
+        "descripcion": "Habitación con Baño Privado. TV Cable. Frigobar",
+        "precio": 1500
+    },
+    {
+        "id": "Habitacion201",
+        "tipo": "Triple",
+        "imagen": "./img/hab/201.jpg",
+        "nombre": "Van Gogh",
+        "descripcion": "Habitación con Baño Privado y TV Cable",
+        "precio": 2100
+    },
+    {
+        "id": "Habitacion202",
+        "tipo": "Triple",
+        "imagen": "./img/hab/202.jpg",
+        "nombre": "Vilaró",
+        "descripcion": "Habitación con Baño Privado y TV Cable",
+        "precio": 1000
+    },
+    {
+        "id": "Habitacion202",
+        "tipo": "Simple",
+        "imagen": "./img/hab/301.jpg",
+        "nombre": "Picasso",
+        "descripcion": "Habitación con Baño Privado. TV Cable. Frigobar",
+        "precio": 1000
+    }
+]
